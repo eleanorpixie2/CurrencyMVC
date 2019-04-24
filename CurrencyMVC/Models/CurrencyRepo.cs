@@ -15,6 +15,8 @@ namespace CurrencyMVC.Models
     {
         //List of coins that belong to the current repo
        public List<ICoin> Coins { get; set; }
+        public string Amount { get; set; }
+        public string selectedCoinToAdd { get; set; }
         //constructor
         public CurrencyRepo()
         {
